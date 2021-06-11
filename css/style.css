@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(8, 8, 8);
+    height:50px;
+}
+
+.logo{  
+    border: rgb(104, 193, 245);
+    margin-left:12px;
+     margin-top: -7px;
+}
+/* image of logo  */
+.logo img{
+    width: 45px;
+    height: 45px;
+    border-radius: 25px;
+}
+
+.navbar li{
+    float:left;           
+    list-style: none;  
+    margin: 10px; 
+}
+
+.navbar ul{
+    overflow: auto; 
+}
+
+.navbar li a{       
+    padding: 5px 8px;
+    text-decoration: none; 
+    color: white;
+    font-size:x-large;
+    font-weight: bolder;
+}
+.navbar li a:hover{  
+    color: rgb(240, 215, 219);
+}
+.search{
+    float: right; 
+}
+.search input{ 
+    background-color: white;
+    border-radius: 10px;
+    border-color: black;
+    font-size: 20px;
+    margin: 5px 50px;
+    padding-left:10px;
+    height: 40px;
+    width: 155px;
+}
+.container1{
+    background-color: rgb(221 229 221 / 92%);
+    text-align: center;
+    height:500px;
+    margin-bottom: 20px;
+}
+.container1 img{
+    border : 2px white;
+    border-radius: 109px;
+    height: 203px;
+    width: 208px;
+    margin-top: 38px;
+}
+.slogan{
+    font-size: 44px;
+    margin:5px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.para{
+    font-size: 22px;
+    padding: 0px 100px;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    padding:20px 10px;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    width: 306px;
+    height: 320px;
+    border: 1px solid rgb(172, 172, 172);
+    border-radius: 8px;
+    margin: 10px 48px;
+}
+.item img{
+
+    border: 1px solid green;
+    border-radius: 5px;
+    height:200px;
+    width: 296px;
+    margin: 4px;
+}
+.item h5{
+    text-align: center;
+    font-size: 26px;
+    font-family: 'Baloo Bhai 2';
+}
+.item a{
+    text-decoration: none;
+
+}
+.button{
+    background-color: #e63030e3;
+  border: none;
+  color: white;
+  padding: 9px 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin: 10px 80px;
+  cursor: pointer;
+}
+.button:hover{
+    background-color: #23ce56e0;
+}
+
+.footer{
+    display: flex;
+    background-color: black;
+    color: white;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+}
+
+.follow_me{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.icon{
+    height : 50px;
+    width: 50px;
+    border-radius: 40px;
+    margin: 10px 10px;
+    cursor: pointer;
+}
+
+/* margin = top right bottom left;  */
+/* padding = top right bottom left;  */
