@@ -56,9 +56,13 @@
     width: 155px;
 }
 .container1{
+    display: flex;
     background-color: rgb(221 229 221 / 92%);
-    text-align: center;
-    height:500px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 30px;
     margin-bottom: 20px;
 }
 .container1 img{
@@ -66,22 +70,25 @@
     border-radius: 109px;
     height: 203px;
     width: 208px;
-    margin-top: 38px;
+    /* margin-top: 19px; */
 }
 .slogan{
     font-size: 44px;
+    text-align: center;
     margin:5px;
     font-family: 'Baloo Bhai 2', cursive;
 }
 .para{
     font-size: 22px;
+    text-align: center;
     padding: 0px 100px;
 }
 
 .row{
     display: flex;
     justify-content: center;
-    padding:20px 10px;
+    flex-wrap: wrap;
+    /* padding:20px 10px; */
 }
 .item{
     display: flex;
@@ -90,7 +97,7 @@
     height: 320px;
     border: 1px solid rgb(172, 172, 172);
     border-radius: 8px;
-    margin: 10px 48px;
+    margin: 19px 48px;
 }
 .item img{
 
@@ -133,7 +140,7 @@
     color: white;
     flex-direction: column;
     text-align: center;
-    padding: 10px;
+    padding: 10px 0px;
 }
 
 .follow_me{
