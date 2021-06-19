@@ -13,34 +13,31 @@
 <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap" rel="stylesheet">
 
 <body>
-    <header class="header">
-        <!-- Naviagation Bar -->
-        <nav class="navbar" id="mynav">
-            <ul class="menu">
-                <li>
-                    <!-- logo  -->
-                    <div class="logo" id="logo">
-                      <img src="images/logo.png" alt="">
-                    </div>
-                </li>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact us</a></li>
-            </ul>
-        </nav>
-        <!-- seach box in right -->
-        <div class="search">
-            <input type="text" name="search" id="search" placeholder="Search">
+    <nav class="navbar h-nav-resp" id="myhead">
+        <ul class="nav-list v-class-resp">
+            <div class="logo"><img src="images/logo.png" alt="logo"></div>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact us</a></li>
+        </ul>
+        <div class="rightNav v-class-resp">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm">Search</button>
         </div>
-    </header>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
 
-    <div class="container1">
+    <div class="container1" id= "container1-resp">
         <!-- container1(image and one para) -->
         <img src="images/img3.jpg" alt="">
-        <p class="slogan">Where Passionate meets Professionals</p>
+        <p class="slogan slogan-resp">Where Passionate meets Professionals</p>
         <!-- <p>where Talent meets Opportunity</p> -->
-        <p class="para">Tired of searching people on Linkedin? Don't Worry we are here for save your time. Connect with your dream job professionals in single click.
+        <p class="para para-resp">Tired of searching people on Linkedin? Don't Worry we are here for save your time. Connect with your dream job professionals in single click.
             we fhl kjbd Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor numquam corrupti voluptates.
         </p>
     </div>
@@ -100,6 +97,7 @@
         </div>
         
     </div>
+    
 
     <div class="footer">
         <p class="para"> 
@@ -116,5 +114,6 @@
         </p>
     </div>
 
-</body>
+    <script src="js/resp.js"></script>
+    </body>
 </html>
