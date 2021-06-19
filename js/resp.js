@@ -1,4 +1,5 @@
-window.onscroll = function() {sticky_navbar()};
+let is_scrolled = false;
+window.onscroll = function() {is_scrolled= true; sticky_navbar()};
 
 burger = document.querySelector('.burger');
 navbar = document.querySelector('.navbar');
@@ -10,14 +11,15 @@ burger.addEventListener('click',()=>{
     rightNav.classList.toggle('v-class-resp');
     navlist.classList.toggle('v-class-resp');
     navbar.classList.toggle('h-nav-resp');
-    if(container1margin.style.marginTop=="217px"){
-        container1margin.style.marginTop="0px";   
+    if(is_scrolled){
+        if(container1margin.style.marginTop=="217px"){
+            container1margin.style.marginTop="0px";   
+        }
+        else
+        {
+            container1margin.style.marginTop="217px";
+        }
     }
-    else
-    {
-        container1margin.style.marginTop="217px";
-    }
-
 })
 
 var sticky = navbar.offsetTop;
