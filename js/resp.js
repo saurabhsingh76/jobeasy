@@ -11,15 +11,15 @@ burger.addEventListener('click',()=>{
     rightNav.classList.toggle('v-class-resp');
     navlist.classList.toggle('v-class-resp');
     navbar.classList.toggle('h-nav-resp');
-    if(is_scrolled){
-        if(container1margin.style.marginTop=="217px"){
-            container1margin.style.marginTop="0px";   
-        }
-        else
-        {
-            container1margin.style.marginTop="217px";
-        }
-    }
+//     if(is_scrolled){
+//         if(container1margin.style.marginTop=="217px"){
+//             container1margin.style.marginTop="0px";   
+//         }
+//         else
+//         {
+//             container1margin.style.marginTop="217px";
+//         }
+//     }
 })
 
 var sticky = navbar.offsetTop;
