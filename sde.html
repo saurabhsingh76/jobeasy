@@ -8,30 +8,93 @@
 </head>
 
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/domain.css">
 
 <body>
-    <header class="header">
-        <!-- Naviagation Bar -->
-        <nav class="navbar" id="mynav">
-            <ul class="menu">
-                <li>
-                    <!-- logo  -->
-                    <div class="logo" id="logo">
-                      <img src="images/logo.png" alt="">
-                    </div>
-                </li>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact us</a></li>
-            </ul>
-        </nav>
-        <!-- seach box in right -->
-        <div class="search">
-            <input type="text" name="search" id="search" placeholder="Search">
+    <nav class="navbar h-nav-resp" id="myhead">
+        <div class="logo left-shift"><img src="images/logo.png" alt="logo"></div> <!-- invisible for pc view-->
+        <ul class="nav-list v-class-resp">
+            <div class="logo logo-resp"><img src="images/logo.png" alt="logo"></div>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+        </ul>
+        <div class="rightNav v-class-resp">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm">Search</button>
         </div>
-    </header>
-    <h3 class="container1">coming soon</h3>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+    
+    <div class="content">
+        <div class="domain-heading">Software Development Engineer</div>
+        <div class="profile">
+            <img src="images/person/sde/p1.jpg" alt="">
+            <div class="name-bio">
+                <h5 class="name">Surendra Meena</h5> 
+                <p class="bio">Associate Software Engineer 2 at Publicis Sapient</p>
+            </div>
+             <a href="https://www.linkedin.com/in/surendra-meena-b3b13488/" class="cnct-btn">
+                    connect
+            </a>
+        </div>
+        <div class="profile">
+            <img src="images/person/sde/p2.jpg" alt="">
+            <div class="name-bio">
+                <h5 class="name">Nitin Malik</h5> 
+                <p class="bio">Software Development Engineer - 1 at Flipkart</p>
+            </div>
+             <a href="https://www.linkedin.com/in/nitin-malik-0220951aa/" class="cnct-btn">
+                    connect
+            </a>
+        </div>
+        <div class="profile">
+            <img src="images/person/sde/p5.jpg" alt="">
+            <div class="name-bio">
+                <h5 class="name">Prakhar Singh Chauhan</h5> 
+                <p class="bio">Software Developer Engineer at Amazon</p>
+            </div>
+             <a href="https://www.linkedin.com/in/prakhar-singh-chauhan-23a245110/" class="cnct-btn">
+                    connect
+            </a>
+        </div>
+        <div class="profile">
+            <img src="images/person/sde/p3.jpg" alt="">
+            <div class="name-bio">
+                <h5 class="name">Akashdeep Garg</h5> 
+                <p class="bio"> Software Developer at Paytm</p>
+            </div>
+             <a href="https://www.linkedin.com/in/akashdeep-garg-752525168/" class="cnct-btn">
+                    connect
+            </a>
+        </div>
+        <div class="profile">
+            <img src="images/person/sde/p6.jpg" alt="">
+            <div class="name-bio">
+                <h5 class="name">Anshi Jain</h5> 
+                <p class="bio">Software Engineer at Google</p>
+            </div>
+             <a href="https://www.linkedin.com/in/anshi-jain-a848a5148/" class="cnct-btn">
+                    connect
+            </a>
+        </div>
+        <div class="profile">
+            <img src="images/person/sde/p4.jpg" alt="">
+            <div class="name-bio">
+                <h5 class="name">Yash Khandelwal</h5> 
+                <p class="bio">SDE - Apple</p>
+            </div>
+             <a href="https://www.linkedin.com/in/yashskhandelwal/" class="cnct-btn">
+                    connect
+            </a>
+        </div>
+
+    </div>
 
     <div class="footer">
         <p class="para"> 
@@ -47,5 +110,6 @@
             Copyright &#169; 2021 Made with &#10084; by Saurabh
         </p>
     </div>
+    <script src="js/resp.js"></script>
 </body>
 </html>
