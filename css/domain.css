@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content{
+    background-color: rgb(221 229 221 / 92%);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 27px;
+
+}
+.domain-heading{
+    color: #b65055;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: 800;
+    margin-top: 27px;
+}
+.profile{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid rgb(172, 172, 172);
+    border-radius: 8px;
+    margin-top: 27px;
+    margin-left: 2px;
+    margin-right: 2px;
+    
+}
+.profile img{
+    height: 165px;
+    width: 165px;
+    border: 2px solid brown;
+    border-radius: 8px;
+    margin:2px;
+}
+.name-bio{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-right: 25px;
+    margin-left: 5px;
+}
+.name{
+    color: #304747;
+    font-size: 35px;
+}
+.bio {
+    font-size: 28px;
+    font-family: 'Baloo Bhai 2',cursive;
+}
+.cnct-btn{
+    display: flex;
+    color: rgb(22 93 200);
+    justify-content: center;
+    align-items: center;
+    height: 32px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 27px;
+    font-weight: 23px;
+    border: 1px solid;
+    border-radius: 13px;
+    background-color: white;
+    align-self: center;
+    margin: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.cnct-btn:hover{
+    color: rgb(166, 94, 233);
+}
