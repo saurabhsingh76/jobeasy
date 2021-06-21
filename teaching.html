@@ -8,30 +8,51 @@
 </head>
 
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/domain.css">
 
 <body>
-    <header class="header">
-        <!-- Naviagation Bar -->
-        <nav class="navbar" id="mynav">
-            <ul class="menu">
-                <li>
-                    <!-- logo  -->
-                    <div class="logo" id="logo">
-                      <img src="images/logo.png" alt="">
-                    </div>
-                </li>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact us</a></li>
-            </ul>
-        </nav>
-        <!-- seach box in right -->
-        <div class="search">
-            <input type="text" name="search" id="search" placeholder="Search">
+    <nav class="navbar h-nav-resp" id="myhead">
+        <div class="logo left-shift"><img src="images/logo.png" alt="logo"></div> <!-- invisible for pc view-->
+        <ul class="nav-list v-class-resp">
+            <div class="logo logo-resp"><img src="images/logo.png" alt="logo"></div>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+        </ul>
+        <div class="rightNav v-class-resp">
+            <input type="text" name="search" id="search">
+            <button class="btn btn-sm">Search</button>
         </div>
-    </header>
-    <h3 class="container1">coming soon</h3>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+    <div class="content">
+        <div class="domain-heading">Teaching</div>
+        <div class="profile">
+            <img src="images/person/teaching/p1.jpg" alt="">
+            <div class="name-bio">
+                <h5 class="name">Pratik Pawar</h5> 
+                <p class="bio">Passionate Chemistry Teacher | ALLEN</p>
+            </div>
+             <a href="https://www.linkedin.com/in/pratikpawar1/" class="cnct-btn">
+                    connect
+            </a>
+        </div>
+        <div class="profile">
+            <img src="images/person/teaching/p2.jpg" alt="">
+            <div class="name-bio">
+                <h5 class="name">Prakhar Agarwal</h5> 
+                <p class="bio">Physics Faculty Aakash</p>
+            </div>
+             <a href="https://www.linkedin.com/in/prakhar996/" class="cnct-btn">
+                    connect
+            </a>
+        </div>
+    </div>
     <div class="footer">
         <p class="para"> 
             follow me on
@@ -46,5 +67,6 @@
             Copyright &#169; 2021 Made with &#10084; by Saurabh
         </p>
     </div>
+    <script src="js/resp.js"></script>
 </body>
 </html>
